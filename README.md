@@ -12,17 +12,23 @@ A simple application in React Native to read and add posts to the wall. The appl
 <img src="https://lh3.googleusercontent.com/PeJtlbJ42rxGMCfGK_hecDRpKaex5oYuln8LLJCaCMlrl58T9iljRsFHjhisE7b7fDgyI4yusGxHZlCYHxIPWIFf8jP9RCDPLVRTdtW59wvTORlOOjYyfAjq3-EZ_3dHSb7om-pJnY9Hu1e2WmIjR2ae_kxsyqKTo5bFnXLDzijlHoAfrcujtW9QMuRIA2Xpea-cT9z_VZJotgqFwi7JnqwDNm_xxjdb0CUcLpQ8KCkTiZs7PfAesVoN6tA3nch-YlidYxJqNvOOHIe4c6jXABRFfADS2VuIJ1KLMOMdeP4ym2oLUyBR-Q_u_Qi3l5ONxhEzxWTAynjHASk5FVUXUo5CAfbreMEddZXm0qy4iGH2GFRWuo60Fz6YimCiYM0qjsASkbgWbQy4sN40dcq72DvdmDSrGJosHbxuKAlSdvMJ6x-uMhoOaicx2R_p6zGEmKnGoISjdVeFYL3UWH_xKaUEaXOXStnSvoKDwti5LyvgqkKP2zyyMWd4MUaf4OFCdHxrkN0mCWtU_HaHyiM7CxudrkOQJ_16Ob3C1JguEecYYVg2yZ6fyC9Ge1z7OBAU96JJUkmtaXhbo7lofrMYjnqqYl4e2vq5oP_R4Dy7jxWfR2rG_zkxySMGRFGlq2snWniP-358Rjpx9T5bJL2EiYpupb-CjNlKn3FrcWB2YO-Y-hkKjsHd-sw=w456-h937-no" style="width:33%"/>
 
 ## API to SEND DATA params:
-uri - data (image, video)
-type - data type
-name - post type
-description - post description
-login - user login
-password - user password
+<ul>
+<li>uri - data (image, video)</li>
+<li>type - data type</li>
+<li>name - post type</li>
+<li>description - post description</li>
+<li>login - user login</li>
+<li>password - user password</li>
+</ul>
+
+
 
 ## Server API returns articles:
 Article:
--title,
--content,
--resource_real_name,
--create_date,
--id_author,
+<ul>
+<li>title</li>
+<li>content</li>
+<li>resource_real_name</li>
+<li>create_date</li>
+<li>id_author</li>
+</ul>
